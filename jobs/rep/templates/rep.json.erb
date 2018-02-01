@@ -64,6 +64,15 @@
     zone: "#{zone}",
   }
 
+  if p("use_v2_tls")
+    tls_ca_cert_empty = if_p("tls.ca_cert") { |value| value.empty? } || true
+    tls_cert_empty = if_p("tls.cert") { |value| value.empty? } || true
+    tls_key_empty = if_p("tls.key") { |value| value.empty? } || true
+    if tls_ca_cert_empty || tls_cert_empty || tls_key_empty
+      raise "tls.ca_cert, tls.cert, and tls.key must be provided if use_v2_tls is true"
+    end
+  end
+
   if p("containers.graceful_shutdown_interval_in_seconds") < 10
     raise "graceful_shutdown_interval_in_seconds cannot be less than 10"
   end
