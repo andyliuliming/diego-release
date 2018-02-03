@@ -34,7 +34,8 @@ blobs
 .bzr
 diego.sublime-workspace
 diego-certs/
-
+# visual studio code ignore
+.vscode
 # go tooling
 src/code.google.com/p/go.tools/
 src/code.google.com/p/goplan9/
@@ -48,12 +49,22 @@ src/github.com/golang/lint
 src/github.com/jstemmer/
 src/github.com/kisielk/errcheck
 src/github.com/kisielk/gotool
+src/github.com/lukehoban/
 src/github.com/mdempsky/
+src/github.com/MichaelTJones/
+src/github.com/newhook/
 src/github.com/nsf/
 src/github.com/onsi/grace
 src/github.com/pivotal-cf-experimental
+src/github.com/ramya-rao-a/
 src/github.com/rogpeppe/
+src/github.com/sqs/
 src/github.com/square
+src/github.com/tools/
+src/github.com/tpng/
+src/github.com/uudashr/
+src/github.com/zmb3/
+src/sourcegraph.com/
 
 # gosub and friends
 src/github.com/vito/gosub
@@ -61,7 +72,6 @@ src/github.com/codegangsta/cli
 
 # CATS for locally running tests
 src/github.com/cloudfoundry/cf-acceptance-tests/
-
 tags
 .tags
 

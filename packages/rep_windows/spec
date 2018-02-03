@@ -66,6 +66,7 @@ files:
   - code.cloudfoundry.org/locket/models/*.go # gosub
   - code.cloudfoundry.org/operationq/*.go # gosub
   - code.cloudfoundry.org/rep/*.go # gosub
+  - code.cloudfoundry.org/rep/adapters/*.go # gosub
   - code.cloudfoundry.org/rep/auctioncellrep/*.go # gosub
   - code.cloudfoundry.org/rep/cmd/gocurl/*.go # gosub
   - code.cloudfoundry.org/rep/cmd/rep/*.go # gosub
@@ -85,6 +86,8 @@ files:
   - code.cloudfoundry.org/volman/voldiscoverers/*.go # gosub
   - code.cloudfoundry.org/volman/vollocal/*.go # gosub
   - code.cloudfoundry.org/workpool/*.go # gosub
+  - github.com/Azure/go-autorest/autorest/adal/*.go # gosub
+  - github.com/Azure/go-autorest/autorest/date/*.go # gosub
   - github.com/bmizerany/pat/*.go # gosub
   - github.com/cloudfoundry/dropsonde/*.go # gosub
   - github.com/cloudfoundry/dropsonde/emitter/*.go # gosub
@@ -103,6 +106,8 @@ files:
   - github.com/cloudfoundry/gosteno/syslog/*.go # gosub
   - github.com/cloudfoundry/sonde-go/events/*.go # gosub
   - github.com/container-storage-interface/spec/lib/go/csi/*.go # gosub
+  - github.com/dgrijalva/jwt-go/*.go # gosub
+  - github.com/dimchansky/utfbom/*.go # gosub
   - github.com/gogo/protobuf/gogoproto/*.go # gosub
   - github.com/gogo/protobuf/proto/*.go # gosub
   - github.com/gogo/protobuf/protoc-gen-gogo/descriptor/*.go # gosub
@@ -119,6 +124,9 @@ files:
   - github.com/tedsuo/ifrit/http_server/*.go # gosub
   - github.com/tedsuo/ifrit/sigmon/*.go # gosub
   - github.com/tedsuo/rata/*.go # gosub
+  - github.com/virtualcloudfoundry/goaci/*.go # gosub
+  - github.com/virtualcloudfoundry/goaci/aci/*.go # gosub
+  - github.com/virtualcloudfoundry/goaci/api/*.go # gosub
   - github.com/vito/go-sse/sse/*.go # gosub
   - golang.org/x/net/context/*.go # gosub
   - golang.org/x/net/http2/*.go # gosub
