@@ -398,3 +398,25 @@
 [submodule "src/code.cloudfoundry.org/csiplugin"]
 	path = src/code.cloudfoundry.org/csiplugin
 	url = https://github.com/cloudfoundry/csiplugin
+[submodule "src/github.com/virtualcloudfoundry/goaci"]
+	path = src/github.com/virtualcloudfoundry/goaci
+	url = https://github.com/virtualcloudfoundry/goaci
+	branch = master
+[submodule "src/github.com/dimchansky/utfbom"]
+	path = src/github.com/dimchansky/utfbom
+	url = https://github.com/dimchansky/utfbom
+	branch = master
+[submodule "src/github.com/Azure/go-autorest"]
+	path = src/github.com/Azure/go-autorest
+	url = https://github.com/Azure/go-autorest
+	branch = master
+[submodule "src/github.com/Azure/azure-sdk-for-go"]
+	path = src/github.com/Azure/azure-sdk-for-go
+	url = https://github.com/Azure/azure-sdk-for-go
+	branch = master
+[submodule "src/github.com/satori/go.uuid"]
+	path = src/github.com/satori/go.uuid
+	url = https://github.com/satori/go.uuid
+[submodule "src/github.com/marstr/guid"]
+	path = src/github.com/marstr/guid
+	url = https://github.com/marstr/guid
