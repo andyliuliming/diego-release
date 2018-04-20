@@ -109,6 +109,7 @@ files:
   - github.com/virtualcloudfoundry/vcontainerclient/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainercommon/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainercommon/vcontainermodels/*.go # gosub
+  - github.com/virtualcloudfoundry/vcontainercommon/verrors/*.go # gosub
   - github.com/vito/go-sse/sse/*.go # gosub
   - golang.org/x/net/context/*.go # gosub
   - golang.org/x/net/http2/*.go # gosub

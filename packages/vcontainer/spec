@@ -45,7 +45,6 @@ files:
   - github.com/virtualcloudfoundry/goaci/api/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainer/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainer/cmd/vcontainer/*.go # gosub
-  - github.com/virtualcloudfoundry/vcontainer/common/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainer/config/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainer/grpcserver/*.go # gosub
   - github.com/virtualcloudfoundry/vcontainer/handlers/*.go # gosub
