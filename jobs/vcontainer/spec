@@ -48,6 +48,9 @@ properties:
   diego.vcontainer.azure_container_provider_cfg.optional_param_1:
     description: "tenant of service principal for managing azure container instances"
     default: null
+  diego.vcontainer.azure_container_provider_cfg.resource_group:
+    description: "resource group which the container would be created in."
+    default: null
   diego.vcontainer.azure_container_provider_cfg.storage_id:
     description: "storage id"
     default: null
