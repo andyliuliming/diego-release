@@ -2,6 +2,7 @@
 name: vcontainer_windows
 
 templates:
+  install.erb: bin/pre-start
   vcontainer.erb: bin/vcontainer
   vcontainer_ctl.erb: bin/vcontainer_ctl
   vcontainer_as_vcap.erb: bin/vcontainer_as_vcap
@@ -11,6 +12,7 @@ templates:
   vcontainer_server.key.erb: config/certs/server.key
 
 packages:
+  - cifs-utils
   - vcontainer
 
 properties:
